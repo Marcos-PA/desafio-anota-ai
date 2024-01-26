@@ -1,2 +1,4 @@
-package com.marcps.desafioanotaai.service.aws;public class MessageDTO {
+package com.marcps.desafioanotaai.service.aws;
+
+public record MessageDTO (String message){
 }
